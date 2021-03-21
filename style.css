@@ -60,6 +60,7 @@ section::before
 .content .text p
 {
     color: #fff;
+    text-align: justify;
 }
 .content .text a
 {
