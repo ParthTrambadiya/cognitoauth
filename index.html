@@ -6,6 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cognito Authentication</title>
 
+    <script type = "text/javascript" >  
+        history.pushState(null, null, location.href);
+        window.onpopstate = function () {
+            history.go(1);
+        };
+    </script>
+
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
