@@ -5,7 +5,7 @@ var accessToken = finalURL.get('access_token')
 var idToken = finalURL.get("id_token")
 var UserName, UserEmail, UserDOB;
 
-aws_region = 'us-east-1';
+aws_region = 'ap-south-1';
 AWS.config.region = aws_region; 
 
 AWS.config.apiVersions = {
