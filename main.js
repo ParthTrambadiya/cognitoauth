@@ -3,7 +3,7 @@ const replacedURL = url.replace('#', '&')
 const finalURL = new URLSearchParams(replacedURL)
 var accessToken = finalURL.get('access_token')
 var idToken = finalURL.get("id_token")
-var UserName, UserEmail, UserDOB;
+var UserName, UserEmail;
 
 aws_region = 'ap-south-1';
 AWS.config.region = aws_region; 
