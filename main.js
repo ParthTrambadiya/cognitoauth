@@ -15,7 +15,7 @@ AWS.config.apiVersions = {
 var cognitoidentityserviceprovider = new AWS.CognitoIdentityServiceProvider(); 
 
 var params = {
-    AccessToken:  AccessToken
+    AccessToken:  accessToken
 };
 
 cognitoidentityserviceprovider.getUser(params, function(err, data) {
